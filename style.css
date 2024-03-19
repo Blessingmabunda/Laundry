@@ -1,0 +1,185 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #0a0a0a;
+}
+
+header {
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 30px;
+    background-image: linear-gradient(rgba(13, 7, 95, 0.76), rgba(3, 4, 7, 0.959), rgba(1, 27, 73, 0.712)),url("header.jpg");
+      
+
+   
+}
+
+header h1 {
+    margin-bottom: 10px;
+    color: #fdfdfd;
+    font-size: 30px;
+}
+
+nav ul {
+    list-style:none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+ ul li a {
+    text-decoration: none;
+    color: #fff9f9;
+    transition: background-color 0.3s ease;
+}
+
+ li a:hover {
+    background-color: #b37605;
+}
+
+.hero {
+    background-color: #ff6600;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    background-image: url("laundry.jpg") ;
+    background-image: linear-gradient(rgba(4, 6, 85, 0.726), rgba(255, 255, 0, 0.712), rgba(179, 25, 132, 0.712)) , url("laundry.jpg");
+    background-size: contain;
+    font-family: Arial, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+    
+    border-radius: 30px;
+    
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #e98b11;
+}
+
+.services {
+    color: #fdfdfd;
+    
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border: 2px snow #070707;
+    border-radius: 30px;
+    padding: 50px 0;
+    text-align: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(4, 6, 68, 0.76), rgba(14, 94, 80, 0.452), rgba(12, 18, 43, 0.712)),url("falling\ busket.webp") 
+}
+.prices
+{
+    color: #fdfdfd;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border: 2px snow #070707;
+ 
+    border-radius: 30px;
+    padding: 50px 0;
+    text-align: center;
+    
+    background-image: linear-gradient(rgba(4, 6, 68, 0.76), rgba(211, 130, 9, 0.774), rgba(179, 25, 132, 0.712)),url("falling\ busket.webp") 
+}
+
+.services h2, .prices h2, {
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+
+.services ul {
+    list-style: none;
+}
+
+.services ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.about p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.about .about-link {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    border-radius: 30px;
+    text-align: center;
+}
+
+hr
+{
+ color: #070707;
+}
+h3
+{
+    font-size: 40px;
+}
+.about 
+{
+    color: #fdfdfd;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border: 2px snow #070707;
+   
+    border-radius: 30px;
+    padding: 50px 0;
+    text-align: center;
+    
+    background-image: linear-gradient(rgba(4, 6, 68, 0.76), rgba(211, 130, 9, 0.774), rgba(8, 11, 46, 0.712)),url("falling\ busket.webp")     
+}
+
+.address
+{
+    color: #fdfdfd;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border: 2px snow #070707;
+   
+    border-radius: 30px;
+    padding: 50px 0;
+    text-align: center;
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(20, 22, 22, 0.774), rgba(0, 0, 0, 0.712)),url("falling\ busket.webp")     
+}
+@keyframes popOut {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
+
+h1,h2,p,li,.btn-primary,h3,img {
+    animation: popOut 1s ease-in;
+}
